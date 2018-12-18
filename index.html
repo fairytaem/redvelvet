@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="UTF-8">
+	<title>문서 제목</title>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery.bxslider.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+
+<script>
+	$(document).ready(function(){
+			var mySlider = $('.slider').bxSlider({
+				auto:true,
+				controls:false,
+				pager:true
+			});
+
+			$("#prevBtn").on("click",function(){
+				mySlider.goToPrevSlide();
+			});
+			$("#nextBtn").on("click",function(){
+				mySlider.goToNextSlide();
+			});
+	});
+</script>
+</head>
+<body>
+	<div id="header_wrap">
+		<div id="header">
+			<div id="logo">
+				<img src="./images/logo.png" alt="로고">
+			</div>
+			<div id="menu">
+				<ul class="left">
+					<li><a href="#">Notice</a></li>
+					<li><a href="#">Profile</a></li>
+					<li><a href="#">Media</a></li>
+					<li><a href="#">Community</a></li>
+					<li><a href="#">Shop</a></li>
+				</ul>
+				<ul class="right">
+					<li><a href="#">로그인</a></li>
+					<li><a href="#">회원가입</a></li>
+					<li><a href="#">사이트맵</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="visual">
+	</div>
+	<div id="content_wrap">
+		<div id="content">
+			<div id="box01">
+				<div class="notice">
+					<h1>Notice</h1>
+					<table>
+						<tbody>
+							<tr>
+								<td class="subject"><a href="javascript:void(0);">Red Velvet Official Fanclub</a></td>
+								<td class="date">18-10-24</td>
+							</tr>
+							<tr>
+								<td class="subject"><a href="#">10월 14일(일) BBQ X SBS S...</a></td>
+								<td class="date">18-10-24</td>
+							</tr>
+							<tr>
+								<td class="subject"><a href="#">MBC 추석특집 아이돌스타 육...</a></td>
+								<td class="date">18-10-24</td>
+							</tr>
+							<tr>
+								<td class="subject"><a href="#">참여자 명단 및 유의 사항 안내</a></td>
+								<td class="date">18-10-24</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="smnow">
+					<h1><img src="./images/smnow.png" alt=""></h1>
+					<div class="btn">
+						<span id="bt_next"> </span>
+					</div>
+						<div class="main_slider">
+							<ul class="slider">
+								<li>
+									<img src="./images/nowindex.jpg" alt="">
+								</li>
+								<li>
+									<li><img src="./images/nowindex.jpg" alt=""></li>
+								</li>
+								<li>
+									<li><img src="./images/nowindex.jpg" alt=""></li>
+								</li>
+								<li>
+									<li><img src="./images/nowindex.jpg" alt=""></li>
+								</li>
+								<li>
+									<li><img src="./images/nowindex.jpg" alt=""></li>
+								</li>
+							</ul>
+							<div id="prevBtn">
+								<img src="http://fairytaem.dothome.co.kr/main/theme/basic1st/img/btn_left.png" alt="이전버튼">
+							</div>
+							<div id="nextBtn">
+								<img src="http://fairytaem.dothome.co.kr/main/theme/basic1st/img/btn_right.png" alt="다음버튼">
+							</div>
+						</div>
+						
+				</div>
+			</div>
+			<div id="box02">
+				<div class="musicvideo">
+					<h1>Music Video</h1>
+					<iframe width="240" height="145" src="https://www.youtube.com/embed/aiHSVQy9xN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<p>Red Velvet 레드벨벳 'Power Up' Music Video</p>
+				</div>
+				<div class="velvetch">
+					<h1>Velvet Channel</h1>
+					<iframe width="240" height="145" src="https://www.youtube.com/embed/2SO-qLst3po" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<p>[STATION X 0] 슬기(SEULGI)X신비(여자친구)X청하X소연 'Wow Thing' Dance...</p>
+					<ul>
+						<li><iframe width="110" height="70" src="https://www.youtube.com/embed/bqFjyo7I8fY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+						<li><iframe width="110" height="70" src="https://www.youtube.com/embed/o845InvtxKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div id="box03">
+				<div class="nalbum">
+					<h1>New Album</h1>
+					<ul>
+						<li><img src="./images/album.jpg" alt=""></li>
+						<li><p>2018-08-06<br><br>'Red Velvet Mini Album ‘Summer Magic’'<br>레드벨벳</p></li>
+					</ul>
+					<p>‘여름 지배자’ 레드벨벳(Red Velvet, 에스엠
+					엔터테인먼트 소속)이 여름 미니앨범 ‘Summer Magic’으로 화려하게 컴백한다.</p>
+					<p>8월 6일 공개되는 이번 앨범에는 에너지 넘
+					치는 초강력 서머송 ‘Power Up’을 비롯한 
+					신곡 6곡과 보너스 트랙까지 총 7트랙이 수
+					록, 레드벨벳 특유의 상큼발랄한 매력과 청량
+					감 넘치는 여름 분위기를 만끽할 수 있어, 
+					글로벌팬들의 폭발적인 호응이 기대된다.</p>
+					<a href="#"><img src="./images/albumbtn.png" alt=""></a>
+				</div>
+				<div class="schedule">
+					<h1>Schedule</h1>
+					<img src="./images/schedule.jpg" alt="">
+					<p class="date">2018.10.25</p>
+					<p class="text">스케줄 정보가 없습니다.</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<footer>
+		<div class="footer_wrap">
+			<ul class="footer">
+				<li><a href="#">고객센터</a></li>
+				<li><a href="#">이용약관</a></li>
+				<li><a href="#">개인정보취급방침</a></li>
+			</ul>
+			<p>Copyrightⓒ2012 SM Entertainment Co., Ltd. All rights reserved.</p>
+		</div>
+	</footer>
+</body>
+</html>

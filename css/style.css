@@ -1,0 +1,83 @@
+@charset "utf-8";
+body{font-family: 'Nanum Gothic', sans-serif;}
+#header_wrap{background: #6ce2fe;width: 100%;height: 150px;}
+#header{background: #001de4;width: 1000px;height: 150px;margin: 0 auto;position: relative;}
+#logo{width: 110px;height: 110px;padding-top: 20px;position: absolute;left: 20px;}
+#menu{_background: #000;}
+#menu>.left{}
+#menu>.left:after{content: "";clear: both;display: block;}
+#menu>.left>li{float: left;padding-right: 30px;line-height: 150px;position: relative;left: 170px;}
+#menu>.left>li>a{font-size: 20px;font-weight: bold;color:white;}
+#menu>.left>li>a:hover{color:yellow;}
+
+#menu>.right{position: absolute;left: 780px;top: 65px;}
+#menu>.right:after{content: "";clear: both;display: block;}
+#menu>.right>li{float: right;padding-right: 15px;}
+#menu>.right>li>a{font-size: 13px;color:white;}
+
+#visual{background:url("../images/velvet.jpg") no-repeat center;background-size:cover;height: 700px;}
+/*#visual>img{width: 1920px;height: 700px;margin: 0 auto;}*/
+
+#content_wrap{width: 100%;height: 650px;background: #6ce2fe;}
+#content{width: 1000px;height: 650px;background: #fff;margin: 0 auto;position: relative;}
+#box01{width: 300px;height: 600px;border: 1px solid #b7b7b7;
+	border-radius: 10px;position: absolute;left: 30px;top: 15px;}
+#box02{width: 300px;height: 600px;border: 1px solid #b7b7b7;
+	border-radius: 10px;position: absolute;left: 350px;top: 15px;}
+#box03{width: 300px;height: 600px;border: 1px solid #b7b7b7;
+	border-radius: 10px;position: absolute;left: 670px;top: 15px;}
+#box01>.notice{width: 250px;height: 160px;_background: #000;
+	margin: 0 auto;border-bottom: 1px solid #b7b7b7;}
+#box02>.musicvideo{width: 250px;height: 160px;_background: #000;
+	margin: 0 auto;margin-bottom: 80px;}
+#box02>.velvetch{width: 250px;height: 160px;_background: #000;
+	margin: 0 auto;}
+#box03>.nalbum{width: 250px;height: 160px;_background: #000;
+	margin: 0 auto;margin-bottom: 80px;}
+#box03>.schedule{width: 250px;height: 160px;_background: #000;
+	margin: 0 auto;margin-top:260px;}
+#box01>.notice>h1{font-size: 20px;font-weight: bold;margin-top: 15px;}
+#box02>.musicvideo>h1{font-size: 20px;font-weight: bold;margin-top: 15px;}
+#box02>.velvetch>h1{font-size: 20px;font-weight: bold;margin-top: 15px;}
+#box02>.musicvideo>iframe{padding-top: 15px;margin: 0 auto;}
+#box02>.velvetch>iframe{padding-top: 15px;margin: 0 auto;}
+#box01>.notice>td{font-size: 12px;}
+.notice h1{padding-bottom: 15px;}
+.notice td{padding-bottom: 8px;font-size: 14px}
+.notice .subject{font-size: 13px}
+.notice .date{font-size: 12px;padding-top: 1px;color:grey;}
+.smnow img{width: 120px;margin: 0 auto;margin-top: 10px;margin-bottom: 0px;}
+.smnow .section{_background: #000;margin: 0 auto;}
+.slider img{width: 206px;}
+.banner img{width: 206px;height: 256px;}
+.section{width: 206px;}
+.banner{width: 206px;height: 300px;overflow:hidden;position: relative;}
+.banner>ul{width: 1030px;position: relative;}
+.banner:after{content: "";clear: both;display: block;}
+.banner>ul>li{float: left;}
+.banner div.pager{width: 100%;position: absolute;bottom: 5px;text-align: center;color: white;cursor:pointer;}
+.musicvideo p{font-size: 14px;cursor: pointer;padding-top: 5px;}
+.velvetch p{font-size:14px;cursor: pointer;padding-top: 5px;}
+.velvetch ul{padding-top: 20px;}
+.velvetch ul:after{content: "";clear: both;display: block;}
+.velvetch li{float: left;padding-right: 15px;}
+.nalbum ul{column-count: 2;column-gap: 0px}
+.nalbum ul:after{content: "";clear: both;display: block;}
+.nalbum li{float: left;width: 130px;}
+.nalbum li>p{font-size: 12px}
+.nalbum img{width: 95px;height: 95px;margin-top: 15px;}
+.nalbum h1{font-size:20px;font-weight: bold;margin-top: 15px;}
+.nalbum p{font-size:14px;padding-top: 15px;}
+.nalbum a>img{width: 99px;height: 25px;float: right;}
+.schedule h1{font-size:20px;font-weight: bold;margin-top: 15px;}
+.schedule img{margin-top: 15px;}
+.schedule .text{position: absolute;bottom: 60px;font-size: 14px;left: 70px;}
+.schedule .date{font-size: 14px;font-weight: bold;position: absolute;bottom: 90px;left: 110px;}
+footer{width: 100%;height: 100px;background: #d8d8d8;}
+.footer_wrap{width: 1000px;margin: 0 auto;line-height: 30px}
+.footer{padding-top: 20px;}
+.footer:after{content: "";clear: both;display: block;}
+.footer>li{float: left;padding-right: 15px;}
+.footer a{color:#717171;}
+.footer>li:last-child{font-weight: bold}
+.footer_wrap p{color:#717171;}
